@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rhythm Dance Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1>Rhythm Dance Studio</h1>
+      <p>Feel the Beat, Dance with Passion!</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#instructors">Instructors</a>
+    <a href="#contact">Contact</a>
+    <input type="text" placeholder="Search classes..." class="search-box">
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At Rhythm Dance Academy, we celebrate the art of dance through diverse styles and a warm community. Whether beginner or pro, join us and move to your own beat.</p>
+    </section>
+
+    <section id="classes">
+      <h2>Our Classes</h2>
+      <div class="card-container">
+        <div class="card">Hip-Hop</div>
+        <div class="card">Ballet</div>
+        <div class="card">Contemporary</div>
+        <div class="card">Salsa</div>
+        <div class="card">Kids Dance</div>
+      </div>
+    </section>
+
+    <section id="instructors">
+      <h2>Meet Our Instructors</h2>
+      <p>Our instructors bring passion, creativity, and years of experience to every session.</p>
+    </section>
+      <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <button onclick="showContact()">Show Contact Info</button>
+      <p id="contactInfo"></p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rhythm Dance Studio| All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
